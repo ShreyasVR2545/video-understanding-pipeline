@@ -1,0 +1,25 @@
+# Video Understanding Pipeline — Dependencies
+# Tested with Python 3.10+ / CUDA 11.8+
+
+# Core ML
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Video Transformer backbone
+transformers>=4.36.0
+datasets>=2.14.0
+
+# Video I/O
+opencv-python>=4.8.0
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.9
+
+# Visualization
+matplotlib>=3.7.0
+
+# Inference demo
+gradio>=4.0.0
+
+# Utilities
+numpy>=1.24.0
+tqdm>=4.65.0

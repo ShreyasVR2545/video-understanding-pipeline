@@ -1,0 +1,40 @@
+# Data
+data/
+examples/
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.pth
+
+# Logs
+logs/
+wandb/
+
+# Visualizations (generated)
+visualizations/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Environment
+.venv/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.tmp
+/tmp/
